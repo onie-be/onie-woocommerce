@@ -1,0 +1,26 @@
+{
+    "name": "onie/woocommerce",
+    "type": "library",
+    "description": "Onie - Woocommerce",
+    "authors": [
+        {
+            "name": "Maxime Fondu",
+            "email": "maxime@onie.be"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Onie\\Woocommerce\\": "/src"
+        }
+    },
+    "repositories":[
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4.0"
+    }
+}
