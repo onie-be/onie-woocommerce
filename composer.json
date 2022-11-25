@@ -21,6 +21,19 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=7.4.0"
+        "php": ">=7.4.0",
+        "wpackagist-plugin/woocommerce":"^7.2@beta"
+    },
+    "extra": {
+        "installer-paths": {
+            "../../../htdocs/content/plugins/{$name}/": [
+                "wpackagist-plugin/woocommerce"
+            ]
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
     }
 }
